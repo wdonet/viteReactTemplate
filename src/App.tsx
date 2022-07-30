@@ -1,7 +1,7 @@
-import { useState } from 'react';
 import styled from 'styled-components';
 import reactLogo from './assets/svg/react.svg';
 import './App.css';
+import Counter from './common/counter';
 
 const Button = styled.button`
   color: red;
@@ -23,7 +23,9 @@ const App = () => {
         {process.env.REACT_APP_NAME} - {process.env.NODE_ENV}
       </>
       <br />
-      <Button>Add Home here</Button>
+      <Button>Add Home here</MyButton>
+      <br />
+      <Counter />
     </div>
   );
 };
