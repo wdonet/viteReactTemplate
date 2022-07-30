@@ -3,7 +3,7 @@ import reactLogo from './assets/svg/react.svg';
 import './App.css';
 import Counter from './common/counter';
 
-const MyButton = styled.button`
+const Button = styled.button`
   color: red;
   font-size: 20px;
 `;
@@ -23,7 +23,8 @@ const App = () => {
         {process.env.REACT_APP_NAME} - {process.env.NODE_ENV}
       </>
       <br />
-      <MyButton>Add Home here</MyButton>
+      <Button>Add Home here</MyButton>
+      <br />
       <Counter />
     </div>
   );
