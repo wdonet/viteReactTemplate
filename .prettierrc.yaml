@@ -1,0 +1,8 @@
+singleQuote: true
+printWidth: 85
+trailingComma: 'all'
+arrowParens: 'avoid'
+overrides:
+  - files: '*.html'
+    options:
+      singleQuote: false
