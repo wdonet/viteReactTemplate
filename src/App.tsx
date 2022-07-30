@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import reactLogo from './assets/svg/react.svg';
 import './App.css';
 
-const GapButton = styled.button`
+const Button = styled.button`
   color: red;
   font-size: 20px;
 `;
@@ -23,7 +23,7 @@ const App = () => {
         {process.env.REACT_APP_NAME} - {process.env.NODE_ENV}
       </>
       <br />
-      <GapButton>Add Home here</GapButton>
+      <Button>Add Home here</Button>
     </div>
   );
 };
